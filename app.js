@@ -1,6 +1,7 @@
 import $ from 'jquery';
 import _ from 'lodash';
-import Bacon from 'bacon-matchers';
+import Bacon from 'baconjs';
+import * as bmatcher from 'bacon-matchers';
 
 console.log($.fn.jquery);
 console.log(_.VERSION);
