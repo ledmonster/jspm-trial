@@ -5,6 +5,7 @@
       "packages": "jspm_packages"
     },
     "dependencies": {
+      "baconjs": "npm:baconjs@^0.7.53",
       "jquery": "github:components/jquery@^2.1.3",
       "lodash": "npm:lodash@^3.5.0"
     }
