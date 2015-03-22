@@ -12,7 +12,11 @@ System.config({
     "bacon-matchers": "npm:bacon.matchers@0.4.0",
     "baconjs": "npm:baconjs@0.7.53",
     "jquery": "github:components/jquery@2.1.3",
+    "jquery-ui": "github:components/jqueryui@1.11.4",
     "lodash": "npm:lodash@3.5.0",
+    "github:components/jqueryui@1.11.4": {
+      "jquery": "github:components/jquery@2.1.3"
+    },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
@@ -32,7 +36,7 @@ System.config({
       "util": "npm:util@0.10.3"
     },
     "npm:bacon.matchers@0.4.0": {
-      "baconjs": "npm:baconjs@0.7.6"
+      "baconjs": "npm:baconjs@0.7.53"
     },
     "npm:baconjs@0.7.53": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
@@ -65,4 +69,3 @@ System.config({
     }
   }
 });
-
