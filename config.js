@@ -9,6 +9,7 @@ System.config({
 
 System.config({
   "map": {
+    "bacon-matchers": "npm:bacon.matchers@0.4.0",
     "baconjs": "npm:baconjs@0.7.53",
     "jquery": "github:components/jquery@2.1.3",
     "lodash": "npm:lodash@3.5.0",
@@ -30,11 +31,18 @@ System.config({
     "npm:assert@1.3.0": {
       "util": "npm:util@0.10.3"
     },
+    "npm:bacon.matchers@0.4.0": {
+      "baconjs": "npm:baconjs@0.7.6"
+    },
     "npm:baconjs@0.7.53": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "path": "github:jspm/nodelibs-path@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.1"
+    },
+    "npm:baconjs@0.7.6": {
+      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:buffer@3.1.2": {
