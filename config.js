@@ -9,7 +9,9 @@ System.config({
 
 System.config({
   "map": {
+    "bacon-jquery": "npm:bacon.jquery@0.4.12",
     "bacon-matchers": "npm:bacon.matchers@0.4.0",
+    "bacon-model": "npm:bacon.model@0.1.12",
     "baconjs": "npm:baconjs@0.7.53",
     "jquery": "github:components/jquery@2.1.3",
     "jquery-ui": "github:components/jqueryui@1.11.4",
@@ -35,7 +37,15 @@ System.config({
     "npm:assert@1.3.0": {
       "util": "npm:util@0.10.3"
     },
+    "npm:bacon.jquery@0.4.12": {
+      "baconjs": "npm:baconjs@0.7.53",
+      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.1"
+    },
     "npm:bacon.matchers@0.4.0": {
+      "baconjs": "npm:baconjs@0.7.53"
+    },
+    "npm:bacon.model@0.1.12": {
       "baconjs": "npm:baconjs@0.7.53"
     },
     "npm:baconjs@0.7.53": {
@@ -69,3 +79,4 @@ System.config({
     }
   }
 });
+
