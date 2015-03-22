@@ -1,5 +1,5 @@
-var $ = require('jquery');
-var _ = require('lodash');
+import $ from 'jquery';
+import _ from 'lodash';
 
 console.log($.fn.jquery);
 console.log(_.VERSION);
